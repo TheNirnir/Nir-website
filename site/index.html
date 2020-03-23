@@ -1,21 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-	<title>Yotam</title>
+	<meta charset="utf-8">
+	<title>Floating Elements</title>
 	<style>
-		h1{
-			font-size: 60px;
+		* {
+			box-sizing: border-box;
 		}
-		h2{
-			font-size: 30px;
-			color: blue;
+		div {
+			margin-left:10px;
+			margin-right: 10px;  
 		}
-		body{
-			text-align: center;
-	</style>
+		p {
+			width: 50%;
+			/*border: 1px solid black;*/
+			float: left;
+			padding: 10px;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+	</style>	
 </head>
 <body>
-<h1>Congratulations Yotam!</h1>
-<h2>Mazal Tov Yotam!</h2>
+	<h1>Floating test</h1>
+	<div>
+		<p>Gaël Sébastien Monfils (French pronunciation: ​[ɡaɛl mɔ̃fis];[3] born 1 September 1986) is a French professional tennis player. He reached a career-high ATP world No. 6 singles ranking on 7 November 2016. His career highlights include reaching two Grand Slam singles semifinals at the 2008 French Open and 2016 US Open and three ATP Tour Masters 1000 singles finals – two at the Paris Masters (2009, 2010) and the other at the Monte Carlo Masters (2016).
+	</p>
+		<p>Monfils was named the ATP Newcomer of the Year in 2005. Monfils has won ten ATP World Tour singles titles and been runner-up twenty-one times in ATP Tour tournaments. He has reached at least one ATP World Tour singles final and scored at least one singles win against a Top 10 player every year since 2005.</p>
+	</div>
 </body>
 </html>
