@@ -1,0 +1,52 @@
+body {
+	background-color: #00ffd0;
+}
+
+h1, img {
+	float: left;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 5vw;
+}
+
+img {
+	margin: 15px 10px 15px 15px;
+	width: 135.125px;
+	height: 87.625px;
+}
+
+.navbar {
+	background-color: white;
+	border: 0px;
+}
+
+#nav-list {
+	margin-top: 15px
+}
+
+#nav-list a{
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background-color: #00ffff;
+}
+
+#nav-list a span {
+	font-size: 2em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #00ffd0;
+}
+
+#nav-list a {
+	font-size: 1.5em;
+}
+
+#nav-list a span {
+	font-size: 1em;
+	margin-right: 5px;
+}
