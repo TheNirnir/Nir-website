@@ -11,10 +11,10 @@ h1 {
 	font-size: 5vw;
 }
 
-img {
+.Logo {
 	margin: 15px 10px 15px 15px;
-	width: 18.505vw;/* 135.125px;*/
-	height: 12vw;/* 87.625px;*/
+	width: 12.337vw;/* 135.125px;*/
+	height: 9vw;/* 87.625px;*/
 }
 
 .navbar {
@@ -22,8 +22,33 @@ img {
 	border: 0px;
 }
 
+#collapsable-nav {
+	/*text-align: center;*/
+	/*position: relative;*/
+}
+
+#OptionsUl {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #nav-list {
+	clear: left;
 	margin-top: 15px
+	text-align: center;
+	/*margin: auto;*/
+	/*display: inline-block;
+	position: relative;*/
+	/*position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;*/
+	/*position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);*/
 }
 
 #nav-list a{
@@ -32,6 +57,7 @@ img {
 
 #nav-list a:hover {
 	background-color: #00ffff;
+	border-radius: 15px;
 }
 
 #nav-list a span {
@@ -49,4 +75,52 @@ img {
 #nav-list a span {
 	font-size: 1em;
 	margin-right: 5px;
+}
+
+#main-image {
+	width: 100%;
+	box-shadow: 50px 50px 50px black;
+	border: 2px solid black;
+}
+
+@media (min-width: 768px) {
+
+	.PurpleBack {
+		background-color: #6600ff;
+		border-radius: 15px;
+		padding: 10px; 
+	}
+}
+@media (max-width: 767px) {
+	#nav-list {
+		font-size: 14px;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#nav-list {
+		font-size: 11px;
+	}
+	#nav-list a {
+		padding: 1px 10px 1px 10px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	#nav-list {
+		font-size: 14px;
+	}
+	#nav-list a {
+		padding: 1.5px 15px 1.5px 15px;
+	}
+}
+
+@media (min-width: 1200px) {
+	#nav-list {
+		font-size: 17px;
+	}
+	#nav-list a {
+		padding: 2px 18px 2px 18px;
+	}
 }
