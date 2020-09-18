@@ -4,81 +4,43 @@
 	<meta charset="utf-8">
 	<title>Test!</title>
 	<style>
-	* {
-		box-sizing: border-box;
-	}
-	p {
+	p{
 		color: blue;
 		font-size: 20px;
 	}
-	h1 {
+	h1{
 		color: green;
 		font-size: 40px;
 		text-align: center;
 	}
-	ul, .red {
+	ul, .red{
 		color: red;
 	}
-	#Bsize {
+	#Bsize{
 		font-size: 30px;
 	}
-	.bold {
+	.bold{
 		font-weight: bold;
 	}
-	.BackGreen {
-		background-color: green;
-		padding: 10px 10px 10px 10px;
-		border: 5px solid black;
-		margin: 40px;
-		width: 100px;
-		height: 15px;
-		overflow: auto;
-	}
-	div.BackBlue {
-		margin: 0;
-		padding: 0;
+	div.BackBlue{
 		color: white;
 		background-color: blue
 	}
-	div > p {
+	div > p{
 		color: purple;
 	}
-	ol li:nth-child(5) {
+	ol li:nth-child(5){
 		background-color: gray;
 	}
-	ol li:nth-child(1):hover {
+	ol li:nth-child(1):hover{
 		background-color: grey;
 		cursor: help;
 	}
-	.TextFont {
+	.TextFont{
 		font-family: "Comic Sans MS", cursive, sans-serif;
 	}
-	.TextStyle {
-		font-family: Arial, Helvetica, sans-serif;
-		color: #0000ff;
-		font-style: italic;
-		font-weight: 900;
-		font-size: 24px;
-		text-transform: uppercase;
-		text-align: center;
-		}
-	.background {
-		width: 200px;
-		height: 200px;
-		background-color: blue;
-		background-image: url("LupaPageTest.png");
-		background-repeat: no-repeat;
-		background-position: right center;
-	}
-	.ImageLink {
-		clear: both;
-		width: 300px;
-		height: 300px;
-		background-image: url("LupaPageTest.png");
-		background-repeat: no-repeat;
-		background-position: center center;
-	}
 	</style>
+}
 </head>
 <body>
 	<h1 id="top">This is the title!</h1>
@@ -87,19 +49,11 @@
 	<div>This is a regular sentence</div>
 	<div class="red">This is a red sentence</div>
 	<div id="Bsize">This is a bigger sentence</div>
-	<hr>
 	<div class="bold">This is a bold sentence</div>
-	<div class="BackGreen">
 	<div class="BackBlue">This is a sentence with a blue background color</div>
-	</div>
-	<div class="background">This is a sentence with an image as a background</div>
-	<div class="TextStyle" style="font-size: 2em">This is a special sentence</div>
 	<div><p>something</p></div>
 	<div>This is an image</div>
 	<img src="LupaPageTest.png" width="400" height="235" alt="Picture">
-	<a class="ImageLink" href="https://faculty.biu.ac.il/~taubman/index.html" target="_blank" title="Mom's website">
-	<img src="LupaPageTest.png" width="400" height="235" alt="Picture">
-	</a>
 	<div>And this is a red unorderd list:
 		<ul>
 			<li>1</li>
